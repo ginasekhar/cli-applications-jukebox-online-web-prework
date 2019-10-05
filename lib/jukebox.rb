@@ -16,5 +16,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_selection = gets.strip
+  
+  songs.each_with_index
   if 
 end
