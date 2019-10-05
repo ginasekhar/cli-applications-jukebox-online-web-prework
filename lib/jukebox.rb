@@ -29,6 +29,7 @@ end
 
 def exit_jukebox
   puts "Goodbye"
+  return "exit"
 end
 
 def run 
