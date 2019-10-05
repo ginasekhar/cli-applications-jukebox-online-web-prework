@@ -8,8 +8,9 @@ end
 
 def list(songs)
   
-  songs.each_with_index do |val, index| 
-    puts "#{index}+1. val"
+  songs.each_with_index do |song_name, index| 
+    track = index + 1
+    puts "#{track}. #{song_name}"
   end
 end
 
