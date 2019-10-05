@@ -35,11 +35,11 @@ def run
   
   if command == "help"
     help
-  else if command == "list"
+  elsif command == "list"
     list(songs)
-  else if command == "play"
+  elsif command == "play"
     play(songs)
-  else if command == "exit"
+  elsif command == "exit"
     exit_jukebox
   else
       "Error: Invalid command #{command}"
