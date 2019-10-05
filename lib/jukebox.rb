@@ -18,7 +18,7 @@ def play(songs)
   user_selection = gets.strip
   
   songs.each_with_index do |song_name, index|
-    if user_selection == (index+1).to_s  || user_selection == val
+    if user_selection == (index+1).to_s  || user_selection == song_name
         puts"Playing #{song_name}"
         return
     end
