@@ -17,9 +17,10 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_selection = gets.strip
   
-  songs.each_with_index do |val, index|
+  songs.each_with_index do |song_name, index|
     if user_selection == (index+1).to_s  || user_selection == val
-      puts 
+        puts"Playing #{song_name}"
+        return
   end
   
 end
