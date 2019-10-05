@@ -1,9 +1,9 @@
 def help
   puts "I accept the following commands:"
-  puts " - help : displays this help message"
-  puts " - list : displayrs a list of songs to play"
-  puts " - play : lets you choose a song to play"
-  puts " - exit : exits this program"
+  puts "- help : displays this help message"
+  puts "- list : displayrs a list of songs to play"
+  puts "- play : lets you choose a song to play"
+  puts "- exit : exits this program"
 end
 
 def list(songs)
