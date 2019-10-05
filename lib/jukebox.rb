@@ -21,6 +21,7 @@ def play(songs)
     if user_selection == (index+1).to_s  || user_selection == val
         puts"Playing #{song_name}"
         return
+    end
   end
   puts "Invalid input, please try again"
 end
