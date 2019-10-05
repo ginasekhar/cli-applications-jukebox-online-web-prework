@@ -33,7 +33,7 @@ def exit_jukebox
 end
 
 def run(songs)
-  puts "Please enter a command" 
+  puts "Please enter a command:" 
   command = gets.strip
   
   if command == "help"
