@@ -33,10 +33,15 @@ def run
   puts "Please enter a command" 
   command = gets.strip
   
-  case command
-    when 0
+  if command == "help"
+    help
+  else if command == "list"
+    list
+  else if command == "list"
+    play 
+    exit
   
-else
-  "Error: capacity has an invalid value (#{capacity})"
+  else
+      "Error: Invalid command #{command}"
 
 end
