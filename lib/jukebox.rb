@@ -37,7 +37,7 @@ def run
     help
   else if command == "list"
     list
-  else if command == "list"
+  else if command == "play"
     play 
     exit
   
